@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(240, 225, 226);
+    margin: auto;
+
+}
+
+.main-container {
+    display: flex;
+    width: 100vh;
+    height: 70vh;
+    background-color: white;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 5px 10px 5px rgb(53, 53, 53);
+}
+
+.sign-in {
+    width: 50%;
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.login {
+    font-weight: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #EB5369;
+    width: 50%;
+    height: 70vh;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1 {
+
+    margin: 10px 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.social-media {
+    height: 60px;
+    width: 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: black;
+}
+
+.input-box {
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    display: flex;
+}
+
+.input-box input {
+    background-color: lightgray;
+    padding-left: 10px;
+    font-weight: 20px;
+    flex: 2;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.forgot-pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.login1 {
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    background-color: #EF1F1F;
+    border: none;
+    outline: none;
+}
+
+.paragraph {
+    width: 80%;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.paragraph2 {
+    width: 55%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
